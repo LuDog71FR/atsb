@@ -61,9 +61,22 @@ Ouvrir <http://localhost:4173> dans le navigateur.
 
 ## Déploiement
 
-Uploader le contenu du dossier `dist/` sur l'hébergeur :
+Le déploiement est automatisé via **GitHub Actions** (`deploy.yml`).
 
-- **OVH / FTP** : transférer le contenu de `dist/` à la racine du site via FTP
+### Déploiement automatique (GitHub Pages)
+
+Tout push sur la branche `main` déclenche automatiquement :
+
+1. Build du site (`npm run build`)
+2. Publication du dossier `dist/` sur GitHub Pages
+
+Aucune action manuelle requise — le site est mis à jour quelques minutes après le push.
+
+Le workflow peut aussi être déclenché manuellement depuis l'onglet **Actions** du dépôt GitHub.
+
+### Déploiement manuel (OVH / FTP)
+
+Pour héberger sur un autre serveur, transférer le contenu de `dist/` à la racine du site via FTP après un `npm run build`.
 
 ## Structure du projet
 
