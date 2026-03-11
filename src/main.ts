@@ -125,4 +125,29 @@ async function init(): Promise<void> {
   });
 }
 
+function initMobileMenu(): void {
+  const btn = document.getElementById('menu-btn');
+  const sidebar = document.getElementById('sidebar');
+  const overlay = document.getElementById('sidebar-overlay');
+
+  function openMenu(): void {
+    sidebar?.classList.remove('-translate-x-full');
+    overlay?.classList.remove('hidden');
+  }
+
+  function closeMenu(): void {
+    sidebar?.classList.add('-translate-x-full');
+    overlay?.classList.add('hidden');
+  }
+
+  btn?.addEventListener('click', openMenu);
+  overlay?.addEventListener('click', closeMenu);
+
+  // Ferme le menu quand on clique sur un lien (navigation)
+  document.getElementById('nav-menu')?.addEventListener('click', (e) => {
+    if ((e.target as HTMLElement).closest('a')) closeMenu();
+  });
+}
+
 init();
+initMobileMenu();
