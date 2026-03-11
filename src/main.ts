@@ -44,7 +44,7 @@ async function loadPage(pageKey: string): Promise<void> {
   const contentArea = document.getElementById('content-area')!;
 
   try {
-    const response = await fetch(pageKeyToPath(pageKey));
+    const response = await fetch(pageKeyToPath(pageKey), { cache: 'no-cache' });
     if (!response.ok) {
       contentEl.innerHTML = `<p class="text-red-600">Page introuvable : <code>${pageKey}</code></p>`;
       return;
@@ -65,7 +65,7 @@ async function buildMenu(): Promise<void> {
   const navEl = document.getElementById('nav-menu')!;
 
   try {
-    const response = await fetch(`${MARKDOWN_BASE}menu.md`);
+    const response = await fetch(`${MARKDOWN_BASE}menu.md`, { cache: 'no-cache' });
     if (!response.ok) throw new Error('menu.md not found');
     const text = await response.text();
     const rawHtml = await marked.parse(text);
