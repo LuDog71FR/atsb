@@ -18,7 +18,7 @@ ZI des Marosses
 | Mardi    | 9h30      | 14h00     |
 | Jeudi    | 9h30      | 14h00     |
 | Vendredi | 13h30     | 17h30     |
-| Samedi   | 9h30      | 14h00     |
+| Samedi   | 9h30      | 12h00     |
 
 Aucune réservation préalable n'est nécessaire pour venir pratiquer. Cependant suivant l'affluence sur certains créneaux, le club se réserve le droit de mettre en place un planning de réservations.
 
