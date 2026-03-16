@@ -1,5 +1,9 @@
 # Site web — Association de Tir Sportif de Branges (ATSB)
 
+Vous êtes sur la page de développement du site !
+
+Pour voir le site, allez directement sur: [https://atsb.club](https://atsb.club) !
+
 Site statique généré avec [Vite](https://vitejs.dev/), TypeScript et Tailwind CSS.
 Les pages sont rédigées en Markdown dans `public/markdown/`.
 
