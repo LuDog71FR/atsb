@@ -2,7 +2,7 @@
 
 ## Bienvenue !
 
-Notre club est **officiellement reconnu** par la **FFTir** et vous propose une **expérience de tir sportive** dans un cadre **sécurisé et convivial**.
+Notre club est **officiellement reconnu** par la **FFTir** et vous propose une **expérience de tir sportif** dans un cadre **sécurisé et convivial**.
 
 ---
 
