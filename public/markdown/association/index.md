@@ -10,6 +10,8 @@ ZI des Marosses
 71500 Branges
 ```
 
+---
+
 ## Les horaires d'ouverture
 
 | Jour     | Ouverture | Fermeture |
@@ -23,18 +25,24 @@ ZI des Marosses
 
 Aucune réservation préalable n'est nécessaire pour venir pratiquer. Cependant suivant l'affluence sur certains créneaux, le club se réserve le droit de mettre en place un planning de réservations.
 
+---
+
 ## Nous contacter
 
-Pour toute question, information ou demande d’adhésion, n’hésitez pas à nous écrire :
+Pour toute question, information ou demande d'adhésion, n'hésitez pas à nous écrire :
 
 📧 [contact@atsb.club](mailto:contact@atsb.club)
 
 Vous pouvez également nous rendre visite directement au **stand de tir** pour échanger avec nos membres et obtenir tous les renseignements dont vous avez besoin. Nous serons ravis de vous accueillir !
 
+---
+
 ## Disciplines pratiquées
 
 - Carabine à 50m
 - Pistolet à 25m
+
+---
 
 ## Les membres du bureau
 
@@ -46,6 +54,8 @@ Vous pouvez également nous rendre visite directement au **stand de tir** pour �
 | Secrétaire adjoint  | Rudy Piotrowski  |
 | Trésorier           | Christophe Carcenac      |
 | Trésorier adjoint   | Ludovic Germain  |
+
+---
 
 ## Projets futurs
 
