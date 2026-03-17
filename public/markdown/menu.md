@@ -1,5 +1,6 @@
 - [Accueil](accueil.md)
 - [L'association](association/index.md)
+- [Inscription](association/inscription.md)
 - [Actualités](actus/index.md)
 - [Compétitions](competitions/index.md)
 - [FFTir](fftir/index.md)
